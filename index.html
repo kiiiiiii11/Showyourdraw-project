@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Your Draw</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🎨 Show Your Draw</h1>
+        <p>แชร์ผลงานภาพวาดของคุณกับทุกคน!</p>
+    </header>
+
+    <main>
+        <div class="upload-container">
+            <input type="file" id="imageUpload" accept="image/*">
+            <input type="text" id="imageTitle" placeholder="ใส่ชื่อผลงาน...">
+            <button onclick="uploadImage()">เพิ่มผลงาน</button>
+        </div>
+
+        <div id="gallery"></div>
+    </main>
+
+    <footer>
+        <h2>📞 ติดต่อหากพบปัญหา</h2>
+        <p>📧 อีเมล: <a href="mailto:kaycnamakhlay06@gmail.com">kaycnamakhlay06@gmail.com</a></p>
+        <p>💬 LINE ID: nanami5772</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
